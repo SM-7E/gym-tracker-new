@@ -8,7 +8,7 @@ GymTrack is a modern, lightweight, and performant web application dedicated to t
 
 ---
 
-## ✨ Features
+##  Features
 * **Secure Authentication**: Register and login effortlessly with Email/Password or 1-Click Google Sign-In, powered by Supabase Auth with strict Row Level Security (RLS).
 * **Detailed Workout Logging**: Track split days (e.g., Push, Pull, Legs) with meticulous target details including Sets, Reps, and Time (Duration).
 * **Cloud Database**: Real-time CRUD (Create, Read, Update, Delete) synchronization ensuring that your workouts are backed up in the cloud securely.
