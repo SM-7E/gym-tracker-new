@@ -14,7 +14,10 @@
 </head>
 
 <body>
-  <!-- Login / Sign Up Screen -->
+  <!-- ========================================================================= -->
+  <!--                     1. AUTHENTICATION (LOGIN & SIGNUP)                    -->
+  <!-- ========================================================================= -->
+
   <div id="loginScreen" class="login-wrapper">
     <!-- Login Form -->
     <div id="loginCard" class="glass-card login-card">
@@ -80,7 +83,10 @@
     </div>
   </div>
 
-  <!-- Main Application -->
+  <!-- ========================================================================= -->
+  <!--                     2. MAIN DASHBOARD APPLICATION                         -->
+  <!-- ========================================================================= -->
+
   <div id="appContainer" style="display: none;">
     <header style="position: relative;">
       <button class="nav-btn logout-btn"
@@ -97,7 +103,7 @@
     </header>
 
     <main>
-      <!-- Home Section -->
+      <!-- ======================= HOME SECTION ======================= -->
       <section id="home" class="active">
         <div class="glass-card welcome-card">
           <h2>Welcome to GymTrack</h2>
@@ -110,7 +116,7 @@
         </div>
       </section>
 
-      <!-- Add Workout Section -->
+      <!-- ======================= ADD WORKOUT SECTION ======================= -->
       <section id="addWorkout">
         <h2>Add Workout</h2>
         <form id="workoutForm">
@@ -161,7 +167,7 @@
         <p class="success-message" id="successMessage">Workout added successfully!</p>
       </section>
 
-      <!-- View History Section -->
+      <!-- ======================= VIEW HISTORY SECTION ======================= -->
       <section id="history">
         <h2>Workout History</h2>
         <div id="historyContainer" class="history-container">
@@ -169,7 +175,7 @@
         </div>
       </section>
 
-      <!-- Analyse Section -->
+      <!-- ======================= ANALYSE SECTION ======================= -->
       <section id="analyse">
         <h2>Workout Analysis</h2>
         <div class="glass-card">
@@ -187,7 +193,16 @@
     </footer>
   </div>
 
-  <script src="script.js"></script>
+  <!-- ========================================================================= -->
+  <!--                     MODULAR JAVASCRIPT IMPORTS                            -->
+  <!-- ========================================================================= -->
+
+  <script src="js/config.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/database.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/chart.js"></script>
 </body>
 
 </html>
